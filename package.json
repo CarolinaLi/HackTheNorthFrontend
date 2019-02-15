@@ -1,0 +1,32 @@
+{
+  "name": "hack_the_north_frontend",
+  "version": "1.0.0",
+  "description": "Application for frontend dev 2019",
+  "main": "index.js",
+  "scripts": {
+    build: "webpack",
+	start: "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarolinaLi/HackTheNorthFrontend.git"
+  },
+  "author": "Carolina Li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarolinaLi/HackTheNorthFrontend/issues"
+  },
+  "homepage": "https://github.com/CarolinaLi/HackTheNorthFrontend#readme",
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.29.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
